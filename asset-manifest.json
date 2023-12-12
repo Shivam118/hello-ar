@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shivam118/hello-ar/static/css/main.3da729e8.css",
+    "main.js": "/Shivam118/hello-ar/static/js/main.50731d5e.js",
+    "static/js/787.329e6da9.chunk.js": "/Shivam118/hello-ar/static/js/787.329e6da9.chunk.js",
+    "index.html": "/Shivam118/hello-ar/index.html",
+    "main.3da729e8.css.map": "/Shivam118/hello-ar/static/css/main.3da729e8.css.map",
+    "main.50731d5e.js.map": "/Shivam118/hello-ar/static/js/main.50731d5e.js.map",
+    "787.329e6da9.chunk.js.map": "/Shivam118/hello-ar/static/js/787.329e6da9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3da729e8.css",
+    "static/js/main.50731d5e.js"
+  ]
+}
