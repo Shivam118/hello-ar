@@ -1,0 +1,48 @@
+.music_box {
+  width: 100%;
+  padding-left: 255px;
+  position: relative;
+}
+.music_box .tableContent {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #d0d3d4;
+  height: 75vh;
+  max-height: 800px;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+.tableContent thead tr th:first-child {
+  width: 40%;
+}
+.tableContent thead tr th {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d0d3d4;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.tableContent thead tr th:first-child {
+  text-align: left;
+}
+.tableContent tbody tr td {
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px 0px;
+}
+.tableContent tbody tr td:first-child {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tableContent tbody tr .clickable {
+  cursor: pointer;
+}

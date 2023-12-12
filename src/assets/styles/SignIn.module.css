@@ -1,0 +1,103 @@
+.container_signin {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_signin .signin_box,
+.container_signin .otp_box {
+  width: 420px;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.signin_box .signin {
+  text-align: left;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #552583;
+}
+.signin_box .desc {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signin_box .phoneInputField {
+  width: 100%;
+}
+.signin_box .phoneInputField .phoneInput:focus {
+  outline: none;
+}
+.signin_box .signbutton,
+.otp_box .signbutton {
+  border-radius: 12px;
+  background: #552583;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.otp_box .otptext {
+  color: #552583;
+  text-align: left;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.otp_box .desc {
+  color: #101920;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.otp_box .code_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+.otp_box .code_container .code {
+  width: 78.54px;
+  height: 77.209px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border: 1px solid #d0d3d4;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 26px;
+  color: #552583;
+}
+.otp_box .code_container .code:focus {
+  outline: none;
+}
+.otp_box .resdiv {
+  color: #101920;
+  cursor: pointer;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: underline;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+.otp_box .resdiv:disabled {
+  cursor: not-allowed;
+}
